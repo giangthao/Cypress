@@ -20,6 +20,8 @@ describe('My Second Example Test Case', function () {
         cy.get('#show-textbox').click();
         cy.get('#displayed-text').should('be.visible')
         cy.get('#displayed-text').should('be.visible')
+        //Control Radio Button
+        cy.get('[value="radio2"]').check().should('be.checked')
     })
 }
 )
