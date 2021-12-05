@@ -28,7 +28,15 @@ describe('My Ten Test Case', function () {
       }
     })
     //User customed command then add iphone X to Card
-    cy.selectProduct(this.data.productName[1])
+   
+
+    
+    this.data.productname.forEach(function(element) {
+      console.log(element)
+      cy.selectProduct(element)
+    })
+
+
 
 
   })
