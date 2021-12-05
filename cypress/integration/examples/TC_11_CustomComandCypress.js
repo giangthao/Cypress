@@ -28,9 +28,8 @@ describe('My Ten Test Case', function () {
       }
     })
     //User customed command then add iphone X to Card
-    cy.selectProduct('iphone X')
-    cy.selectProduct('Nokia Edge')
-    cy.selectProduct('Samsung Note 8')
+    cy.selectProduct(this.data.productName[1])
+
 
   })
   
