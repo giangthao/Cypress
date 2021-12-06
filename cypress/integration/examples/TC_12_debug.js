@@ -15,6 +15,8 @@ describe('My Ten Test Case', function () {
     cy.get('input[name="email"]').click()
     cy.get(':nth-child(1) > .alert').contains('Name should be at least 2 characters')
     cy.get('select').select(this.data.gender)
+    //use cy.pause pause all project to debug
+    cy.pause()
     cy.get('input[name="name"]:nth-child(2)').clear()
     console.log(this.data.name)
     const text = this.data.name
