@@ -1,5 +1,10 @@
 {
     "defaultCommandTimeout":9000,
-    "pageLoadTimeout":6000
+    "pageLoadTimeout":6000,
+    "env":
+{
+    "url": "https://rahulshettyacademy.com/angularpractice/"
+}
+
 }
 
