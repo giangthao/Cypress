@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 //import cypress from 'cypress';
 import 'cypress-iframe';
-import HomePage from '../examples/pageObjects/HomePage'
-import ProductPage from './pageObjects/ProductPage';
+import HomePage from '../../support/pageObjects/HomePage'
+import ProductPage from '../../support/pageObjects/ProductPage';
 describe('My Ten Test Case', function () {
     before(() => {
        cy.fixture('example').then(function(data){
