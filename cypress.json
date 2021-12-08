@@ -1,13 +1,10 @@
 {
     "defaultCommandTimeout":9000,
     "pageLoadTimeout":6000,
+        "reporter": "reporters/custom.js",   
     "env":
-    
-     
-    
 {
     "url": "https://rahulshettyacademy.com/angularpractice/"
 },
 "projectId": "mhfw18"
 }
-
