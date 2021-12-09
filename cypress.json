@@ -1,10 +1,15 @@
 {
     "defaultCommandTimeout":9000,
     "pageLoadTimeout":6000,
-        "reporter": "reporters/custom.js",   
+    "reporter": "mochawesome",   
     "env":
 {
     "url": "https://rahulshettyacademy.com/angularpractice/"
 },
+"retries":
+{
+     "runMode": 1
+    
+    },
 "projectId": "mhfw18"
 }

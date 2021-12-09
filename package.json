@@ -168,7 +168,13 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "open":"node_modules\\.bin\\cypress open",
+    "test": "node_modules\\.bin\\cypress run",
+    
+    "headed": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordTestDashBoard":"npm run test -- --browser chrome --record --key efde1af0-26d5-495d-a263-7a6ce00382fc --reporter mochawesome",
+    "FrontEndTC":"npm run test -- --spec \"cypress/integration/FrontEnd/*.js\""
   },
   "repository": {
     "type": "git",
